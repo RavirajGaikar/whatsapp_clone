@@ -16,7 +16,7 @@ import TimeAgo from 'timeago-react';
 import styled from 'styled-components';
 
 function ChatScreen({chat,messages}) {
-
+    {/*Starting component */}
     const[user] = useAuthState(auth);
     const router = useRouter();
     const [input,setInput] = useState('');
